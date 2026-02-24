@@ -37,8 +37,8 @@ MongoDB is deployed using the official Docker image within Docker Compose.
 ## Nginx Configuration
 Nginx is configured as a reverse proxy to expose the application on port 80.
 
-Frontend → http://server-ip/
-Backend API → http://server-ip/api
+Frontend → http://54.91.115.161:3000/tutorials
+Backend API → http://54.91.115.161:8080/
 
 ## CI/CD Pipeline
 GitHub Actions workflow:
